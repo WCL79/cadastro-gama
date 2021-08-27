@@ -438,7 +438,7 @@ iframe {
 
 /*------------------------------------------------------------------
 [ Button ]*/
-.container-cadastro-form-btn {
+.container-cadastro-form-btn{
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -477,7 +477,7 @@ iframe {
   transition: all 0.4s;
 }
 
-.cadastro-form-btn {
+.cadastro-form-btn{
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -495,7 +495,7 @@ iframe {
   line-height: 1.2;
 }
 
-.wrap-cadastro-form-btn:hover .cadastro-form-bgbtn {
+.quebra-linha-cadastro-form-btn:hover .cadastro-form-bgbtn {
   bottom: 0;
 }
 
