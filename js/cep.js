@@ -1,4 +1,4 @@
-function limparFormularioCep() {
+function limpa_formulario_cep() {
     //Limpa valores do formulário de cep.
     document.getElementById('rua').value = ("");
     document.getElementById('bairro').value = ("");
@@ -12,12 +12,12 @@ function meu_callback(conteudo) {
     } //end if.
     else {
         //CEP não Encontrado.
-        limparFormularioCep();
+        limpa_formulario_cep();
         alert("CEP não encontrado.");
     }
 }
 
-function pesquisarCep(valor) {
+function pesquisacep(valor) {
 
     //Nova variável "cep" somente com dígitos.
     var cep = valor.replace(/\D/g, '');
@@ -47,12 +47,12 @@ function pesquisarCep(valor) {
         } //end if.
         else {
             //cep é inválido.
-            limparFormularioCep();
+            limpa_formulario_cep();
             alert("Formato de CEP inválido.");
         }
     } //end if.
     else {
         //cep sem valor, limpa formulário.
-        limparFormularioCep();
+        limpa_formulario_cep();
     }
 };
