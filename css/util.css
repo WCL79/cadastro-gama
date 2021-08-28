@@ -3,11 +3,14 @@
 */
 
 .p-l-50 {padding-left: 50px;}
-.p-r-50 {padding-right: 50px;}
+.p-l-100 {padding-left: 100px;}
+.p-r-50 {padding-right: 55px;}
+.p-t-20 {padding-top: 20px;}
 .p-t-72 {padding-top: 72px;}
 .p-b-50 {padding-bottom: 50px;}
 .p-b-33 {padding-bottom: 33px;}
 .p-b-59 {padding-bottom: 59px;}
+.p-b-80 {padding-bottom: 80px;}
 
 /*[ Layout ]
 ///////////////////////////////////////////////////////////
