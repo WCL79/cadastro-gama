@@ -34,14 +34,14 @@
     <title>Cadastro</title>
 </head>
 <bod style="background-color: #999999;">
-    <div class="limitador">
-        <div class="container-cadatro100">
-            
+
+    <div class="limiter">
+        <div class="container-cadastro"> 
             <div class="cadastro-more" style="background-image: url('images/image-01-redimencionada.jpeg')"></div>
             
-            <div class="quebra-linha-cadasto p-l-100 p-t-20 p-b-80">
+            <div class="wrap-cadastro p-l-50 p-r-50 p-t-72 p-b-50"> 
                
-                <form class="cadastro-form validar-Form" name="validaForm" onsubmit="return validarForm()" method="post" netlify>
+                <form class="cadastro-form validate-form" name="validaForm" onsubmit="return validarForm()" method="post" netlify>
                     <span class="cadastro-form-title p-b-59">
                         <div class="container">
                             <img src="images/logotype.jpeg" />
@@ -49,86 +49,86 @@
                         Cadastra-se.
                     </span>
 
-                    <div class="wrap-entrada validar-entrada" data-validate="Informe seu nome completo">
-                        <span class="label-entrada">NOME</span>
-                        <input class="entrada" type="text" name="name">
-                        <span class="focus-entrada"></span>
+                    <div class="wrap-input  validate-input" data-validate="Informe seu nome completo">
+                        <span class="label-input">NOME</span>
+                        <input class="input" type="text" name="name">
+                        <span class="focus-input"></span>
                     </div>
                     
-                    <div class="wrap-entrada validar-entrada" data-validate="Informe seu CPF">
-                        <span class="label-entrada">CPF</span>
-                        <input class="entrada" type="number" name="cpf" maxlength="14">
-                        <span class="focus-entrada"></span>
+                    <div class="wrap-input  validate-input" data-validate="Informe seu CPF">
+                        <span class="label-input">CPF</span>
+                        <input class="input" type="number" name="cpf" maxlength="14">
+                        <span class="focus-input"></span>
                     </div>
                     
-                    <div class="wrap-entrada">
-                        <span class="label-entrada">RG</span>
-                        <input class="entrada" type="number" maxlength="14">
-                        <span class="focus-entrada"></span>
+                    <div class="wrap-input">
+                        <span class="label-input">RG</span>
+                        <input class="input" type="number" maxlength="14">
+                        <span class="focus-input"></span>
                     </div>
                     
-                    <div class="wrap-entrada">
-                        <span class="label-entrada">FONE FIXO</span>
-                        <input class="entrada" type="number" name="foneFixo" maxlength="14">
-                        <span class="focus-entrada"></span>
+                    <div class="wrap-input">
+                        <span class="label-input">FONE FIXO</span>
+                        <input class="input" type="number" name="foneFixo" maxlength="14">
+                        <span class="focus-input"></span>
                     </div>
                     
-                    <div class="wrap-entrada validar-entrada" data-validate="Informe n° de celular">
-                        <span class="label-entrada">FONE CELULAR</span>
-                        <input class="entrada" type="number" name="foneCel" maxlength="14">
-                        <span class="focus-entrada"></span>
+                    <div class="wrap-input  validate-input" data-validate="Informe n° de celular">
+                        <span class="label-input">FONE CELULAR</span>
+                        <input class="input" type="number" name="foneCel" maxlength="14">
+                        <span class="focus-input"></span>
                     </div>
                     
-                    <div class="quebra-de-linha-selecao validar-selecao">
-                        <span class="selecionar-entrada">SEXO</span>
-                        <select class="selecionar">
+                    <div class="wrap-select validate-select">
+                        <span class="select-input">SEXO</span>
+                        <select class="select">
                             <option value=" "> </option>
                             <option value="Masculino">MASCULINO</option>
                             <option value="Feminino">FEMININO</option>
                         </select>
-                        <span class="selecionar-focus"></span>
+                        <span class="select-focus"></span>
                     </div>
                     
-                    <div class="wrap-entrada">
-                        <span class="label-entrada">CEP</span>
-                        <input class="entrada" name="cep" type="number" id="cep" value="" size="10" maxlength="9"
+                    <div class="wrap-input ">
+                        <span class="label-input">CEP</span>
+                        <input class="input" name="cep" type="number" id="cep" value="" size="10" maxlength="9"
                             onblur="pesquisacep(this.value);" />
-                        <span class="focus-entrada"></span>
+                        <span class="focus-input"></span>
                     </div>
                     
-                    <div class="quebra-de-linha-selecao validar-selecao" data-validate="Selecione seu Estado">
-                        <span class="selecionar-entrada">ESTADO</span>
-                        <select class="selecionar" id="estados"></select>
-                        <span class="selecionar-focus"></span>
+                    <div class="wrap-select validate-select" data-validate="Selecione seu Estado">
+                        <span class="select-input">ESTADO</span>
+                        <select class="select" id="estados"></select>
+                        <span class="select-focus"></span>
                     </div>
                     
-                    <div class="quebra-de-linha-selecao validar-selecao" data-validate="Selecione a sua Cidade">
-                        <span class="selecionar-entrada">CIDADE</span>
-                        <select class="selecionar" id="cidades"></select>
-                        <span class="selecionar-focus"></span>
+                    <div class="wrap-select validate-select" data-validate="Selecione a sua Cidade">
+                        <span class="select-input">CIDADE</span>
+                        <select class="select" id="cidades"></select>
+                        <span class="select-focus"></span>
                     </div>
                     
-                    <div class="wrap-entrada validar-entrada" data-validate="Informe nome da rua">
-                        <span class="label-entrada">RUA</span>
-                        <input class="entrada" name="rua" type="text" id="rua" size="60">
-                        <span class="focus-entrada"></span>
+                    <div class="wrap-input  validate-input" data-validate="Informe nome da rua">
+                        <span class="label-input">RUA</span>
+                        <input class="input" name="rua" type="text" id="rua" size="60">
+                        <span class="focus-input"></span>
                     </div>
                     
-                    <div class="wrap-entrada validar-entrada" data-validate="Informe o n° residêncial">
-                        <span class="label-entrada">NÚMERO</span>
-                        <input class="entrada" name="number" type="text" />
-                        <span class="focus-entrada"></span>
+                    <div class="wrap-input  validate-input" data-validate="Informe o n° residêncial">
+                        <span class="label-input">NÚMERO</span>
+                        <input class="input" name="number" type="text" />
+                        <span class="focus-input"></span>
                     </div>
                     
-                    <div class="wrap-entrada validar-entrada" data-validate="Informe seu nome completo">
-                        <span class="label-entrada">BAIRRO</span>
-                        <input class="entrada" name="bairro" type="text" id="bairro" size="40">
-                        <span class="focus-entrada"></span>
+                    <div class="wrap-input  validate-input" data-validate="Informe seu nome completo">
+                        <span class="label-input">BAIRRO</span>
+                        <input class="input" name="bairro" type="text" id="bairro" size="40">
+                        <span class="focus-input"></span>
                     </div>
 
                     <div class="flex-m w-full p-b-33">
                         <div class="contact100-form-checkbox">
-                            <input class="input-checkbox100" id="ckb1" type="checkbox" name="relembrar">
+                            <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
                             <label class="label-checkbox100" for="ckb1">
                                 <span class="txt1">
                                     Concordo com os termos
@@ -141,7 +141,7 @@
                     </div>
 
                     <div class="container-cadastro-form-btn">
-                        <div class="quebra-linha-cadastro-form-btn">
+                        <div class="wrap-cadastro-form-btn">
                             <div class="cadastro-form-bgbtn"></div>
                             <button class="cadastro-form-btn">
                                     ENVIAR

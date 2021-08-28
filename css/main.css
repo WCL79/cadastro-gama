@@ -43,7 +43,7 @@ p {
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #8f8484;
 	margin: 0px;
 }
 
@@ -139,36 +139,29 @@ iframe {
 .txt1 {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
-  color: #999999;
+  color: #424040;
   line-height: 1.4;
 }
 
 .txt2 {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
-  color: #666666;
-  line-height: 1.4;
-}
-
-.txt3 {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  color: #666666;
+  color: #615858;
   line-height: 1.4;
 }
 
 .hov1:hover {
-  color: #c87ef0;
+  color: #7f25af;
 }
 
 /*//////////////////////////////////////////////////////////////////
 [ cadastro ]*/
-.limitador {
+.limiter {
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
-.container-cadatro100{
+.container-cadastro {
   width: 100%;  
   display: -webkit-box;
   display: -webkit-flex;
@@ -180,8 +173,8 @@ iframe {
   flex-wrap: wrap;
 }
 
-.quebra-linha-cadasto{
-  width: 520px;
+.wrap-cadastro {
+  width: 700px;
   min-height: 100vh;
   background: #fff;
   border-radius: 2px;
@@ -194,10 +187,11 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: calc(100% - 710px);
+  width: calc(100% - 700px);
   position: relative;
   z-index: 1;
 }
+
 
 .cadastro-more::before {
   content: "";
@@ -215,7 +209,6 @@ iframe {
   background: linear-gradient(bottom, #e8519e, #c77ff2);
   opacity: 0.8;
 }
-
 
 /*==================================================================
 [ Image]*/
@@ -242,9 +235,9 @@ iframe {
 .cadastro-form-title {
   display: block;
   width: 100%;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Poppins-Bold;
   font-size: 39px;
-  color: #e9530e;
+  color: #f47920;
   line-height: 1.2;
   text-align: center;
 }
@@ -253,34 +246,34 @@ iframe {
 /*------------------------------------------------------------------
 [ Input ]*/
 
-.wrap-entrada {
+.wrap-input {
   width: 100%;
   position: relative;
-  border-bottom: 2px solid #dbdbdb;
-  margin-bottom: 35px;
+  border-bottom: 2px solid #b69393;
+  margin-bottom: 45px;
 }
 
-.label-entrada {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+.label-input {
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
-  color: #3f3838;
+  color: #1d1c1c;
   line-height: 1.2;
   padding-left: 2px;
 }
 
-.entrada {
+.input {
   display: block;
   width: 100%;
   height: 50px;
   background: transparent;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 22px;
-  color: #555555;
+  color: #1d1c1c;
   line-height: 1.2;
   padding: 0 2px;
 }
 
-.focus-entrada {
+.focus-input {
   position: absolute;
   display: block;
   width: 100%;
@@ -290,7 +283,7 @@ iframe {
   pointer-events: none;
 }
 
-.focus-entrada::before {
+.focus-input::before {
   content: "";
   display: block;
   position: absolute;
@@ -312,45 +305,45 @@ iframe {
 }
 
 
-.entrada:focus + .focus-entrada::before {
+.input:focus + .focus-input::before {
   width: 100%;
 }
 
-.ha-valor.entrada + .focus-entrada::before {
+.has-val.input + .focus-input::before {
   width: 100%;
 }
 
 /*------------------------------------------------------------------
 [ Select ]*/
 
-.quebra-de-linha-selecao {
+.wrap-select {
   width: 100%;
   position: relative;
-  border-bottom: 2px solid #dbdbdb;
+  border-bottom: 2px solid #b69393;
   margin-bottom: 45px;
 }
 
-.selecionar-entrada {
+.select-input {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
-  color: #555555;
+  color: #1d1c1c;
   line-height: 1.2;
   padding-left: 2px;
 }
 
-.selecionar{
+.select{
   display: block;
   width: 100%;
   height: 50px;
   background: transparent;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 22px;
-  color: #555555;
+  color: #1d1c1c;
   line-height: 1.2;
   padding: 0 2px;
 }
 
-.selecionar-focus{
+.select-focus{
   position: absolute;
   display: block;
   width: 100%;
@@ -360,7 +353,7 @@ iframe {
   pointer-events: none;
 }
 
-.selecionar-focus::before {
+.select-focus::before {
   content: "";
   display: block;
   position: absolute;
@@ -382,21 +375,23 @@ iframe {
 }
 
 
-.selecionar:focus + .selecionar-focus::before {
+.select:focus + .select-focus::before {
   width: 100%;
 }
 
-.ha-valor.selecionar+ .selecionar-focus::before {
+.has-val.input + .focus-input::before {
   width: 100%;
 }
+
 
 /*==================================================================
 [ Restyle Checkbox ]*/
-.input-checkbox100 {
+
+.input-checkbox {
   display: none;
 }
 
-.label-checkbox100 {
+.label-checkbox {
   margin: 0;
 
   display: block;
@@ -405,9 +400,9 @@ iframe {
   cursor: pointer;
 }
 
-.label-checkbox100::before {
+.label-checkbox::before {
   content: "\f00c";
-  font-family: FontAwesome;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 13px;
   color: transparent;
 
@@ -432,13 +427,12 @@ iframe {
   transform: translateY(-50%);
 }
 
-.input-checkbox100:checked + .label-checkbox100::before {
+.input-checkbox:checked + .label-checkbox::before {
   color: #c87ef0;
 }
-
 /*------------------------------------------------------------------
 [ Button ]*/
-.container-cadastro-form-btn{
+.container-cadastro-form-btn {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -450,11 +444,12 @@ iframe {
   align-items: center;
 }
 
-.quebra-linha-cadastro-form-btn{
+
+.wrap-cadastro-form-btn {
   display: block;
   position: relative;
   z-index: 1;
-  border-radius: 30px;
+  border-radius: 25px;
   overflow: hidden;
 }
 
@@ -477,7 +472,7 @@ iframe {
   transition: all 0.4s;
 }
 
-.cadastro-form-btn{
+.cadastro-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -494,23 +489,22 @@ iframe {
   color: #fff;
   line-height: 1.2;
 }
-
-.quebra-linha-cadastro-form-btn:hover .cadastro-form-bgbtn {
+.wrap-cadastro-form-btn:hover .cadastro-form-bgbtn{
   bottom: 0;
 }
 
 /*------------------------------------------------------------------
 [ Alerta de validação ]*/
 
-.validar-entrada{
+.validate-input {
   position: relative;
 }
 
-.validar-selecao{
+.validate-select{
   position: relative;
 }
 
-.alerta-validacao::before {
+.alert-validate::before {
   content: attr(data-validate);
   position: absolute;
   max-width: 70%;
@@ -527,11 +521,12 @@ iframe {
   right: 2px;
   pointer-events: none;
 
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Poppins-Medium;
   color: #c80000;
   font-size: 14px;
   line-height: 1.4;
   text-align: left;
+
   visibility: hidden;
   opacity: 0;
 
@@ -541,12 +536,12 @@ iframe {
   transition: opacity 0.4s;
 }
 
-.alerta-validacao::after {
+.alert-validate::after {
   content: "\f06a";
   font-family: FontAwesome;
   display: block;
   position: absolute;
-  color: #d81e1e;
+  color: #c80000;
   font-size: 18px;
   bottom: calc((100% - 25px) / 2);
   -webkit-transform: translateY(50%);
@@ -557,13 +552,13 @@ iframe {
   right: 8px;
 }
 
-.alerta-validacao:hover:before {
+.alert-validate:hover:before {
   visibility: visible;
   opacity: 1;
 }
 
 @media (max-width: 992px) {
-  .alerta-validacao::before {
+  .alert-validate::before {
     visibility: visible;
     opacity: 1;
   }
@@ -573,7 +568,7 @@ iframe {
   content: "\f26b";
   font-family: Material-Design-Iconic-Font;
   font-size: 22px;
-  color: #1b925d;
+  color: #00ad5f;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -590,6 +585,7 @@ iframe {
   transform: translateY(50%);
   right: 5px;
 }
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Responsivo ]*/

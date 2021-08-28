@@ -3,19 +3,19 @@
 
     /*==================================================================
     [ Contato de foco2 ]*/
-    $('.entrada').each(function () {
+    $('.input').each(function () {
         $(this).on('blur', function () {
             if ($(this).val().trim() != "") {
-                $(this).addClass('ha-valor');
+                $(this).addClass('has-val');
             }
             else {
-                $(this).removeClass('ha-valor');
+                $(this).removeClass('has-val');
             }
         })
     })
     /*==================================================================
     [ Validar após a tipagem ]*/
-    $('.validar-entrada .entrada').each(function () {
+    $('.validate-input .input').each(function () {
         $(this).on('blur', function () {
             if (validar(this) == false) {
                 mostrarValidacao(this);
@@ -28,9 +28,9 @@
 
     /*==================================================================
     [ Validar ]*/
-    var input = $('.validar-entrada .entrada');
+    var input = $('.validate-input .input');
 
-    $('.validar-Form').on('submit', function () {
+    $('.validate-form').on('submit', function () {
         var check = true;
 
         for (var i = 0; i < input.length; i++) {
@@ -43,7 +43,7 @@
     });
 
 
-    $('.validar-Form .entrada').each(function () {
+    $('.validate-form .input').each(function () {
         $(this).focus(function () {
             esconderValidacao(this);
             $(this).parent().removeClass('true-validate');
@@ -70,7 +70,7 @@
     function mostrarValidacao(input) {
         let esseAlert = $(input).parent();
 
-        $(esseAlert).addClass('alerta-validacao');
+        $(esseAlert).addClass('alert-validate');
     }
 
     function esconderValidacao(input) {
