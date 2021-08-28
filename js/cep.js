@@ -1,58 +1,55 @@
-function limpa_formulario_cep() {
-    //Limpa valores do formulário de cep.
-    document.getElementById('rua').value = ("");
-    document.getElementById('bairro').value = ("");
-}
 
-function meu_callback(conteudo) {
-    if (!("erro" in conteudo)) {
-        //Atualiza os campos com os valores.
-        document.getElementById('rua').value = (conteudo.logradouro);
-        document.getElementById('bairro').value = (conteudo.bairro);
-    } //end if.
-    else {
-        //CEP não Encontrado.
-        limpa_formulario_cep();
-        alert("CEP não encontrado.");
+$(document).ready(function () {
+
+    function limparFormularioCep() {
+        // Limpa valores do formulário de cep.
+        $("#rua").val("");
+        $("#bairro").val("");
     }
-}
 
-function pesquisacep(valor) {
+    //Quando o campo cep perde o foco.
+    $("#cep").blur(function () {
 
-    //Nova variável "cep" somente com dígitos.
-    var cep = valor.replace(/\D/g, '');
+        //Nova variável "cep" somente com dígitos.
+        let cep = $(this).val().replace(/\D/g, '');
 
-    //Verifica se campo cep possui valor informado.
-    if (cep != "") {
+        //Verifica se campo cep possui valor informado.
+        if (cep != "") {
 
-        //Expressão regular para validar o CEP.
-        var validacep = /^[0-9]{8}$/;
+            //Expressão regular para validar o CEP.
+            let validacep = /^[0-9]{8}$/;
 
-        //Valida o formato do CEP.
-        if (validacep.test(cep)) {
+            //Valida o formato do CEP.
+            if (validacep.test(cep)) {
 
-            //Preenche os campos com "..." enquanto consulta webservice.
-            document.getElementById('rua').value = "...";
-            document.getElementById('bairro').value = "...";
+                //Preenche os campos com "..." enquanto consulta webservice.
+                $("#rua").val("...");
+                $("#bairro").val("...");
 
-            //Cria um elemento javascript.
-            var script = document.createElement('script');
+                //Consulta o webservice viacep.com.br/
+                $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function (dados) {
 
-            //Sincroniza com o callback.
-            script.src = 'https://viacep.com.br/ws/' + cep + '/json/?callback=meu_callback';
-
-            //Insere script no documento e carrega o conteúdo.
-            document.body.appendChild(script);
-
+                    if (!("erro" in dados)) {
+                        //Atualiza os campos com os valores da consulta.
+                        $("#rua").val(dados.logradouro);
+                        $("#bairro").val(dados.bairro);
+                    } //end if.
+                    else {
+                        //CEP pesquisado não foi encontrado.
+                        limparFormularioCep();
+                        alert("CEP não encontrado.");
+                    }
+                });
+            } //end if.
+            else {
+                //cep é inválido.
+                limparFormularioCep();
+                alert("Formato de CEP inválido.");
+            }
         } //end if.
         else {
-            //cep é inválido.
-            limpa_formulario_cep();
-            alert("Formato de CEP inválido.");
+            //cep sem valor, limpa formulário.
+            limparFormularioCep();
         }
-    } //end if.
-    else {
-        //cep sem valor, limpa formulário.
-        limpa_formulario_cep();
-    }
-};
+    });
+});
