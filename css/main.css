@@ -194,7 +194,7 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: calc(100% - 520px);
+  width: calc(100% - 710px);
   position: relative;
   z-index: 1;
 }
@@ -257,13 +257,13 @@ iframe {
   width: 100%;
   position: relative;
   border-bottom: 2px solid #dbdbdb;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 .label-entrada {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
-  color: #999999;
+  color: #3f3838;
   line-height: 1.2;
   padding-left: 2px;
 }
@@ -333,7 +333,7 @@ iframe {
 .selecionar-entrada {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
-  color: #999999;
+  color: #555555;
   line-height: 1.2;
   padding-left: 2px;
 }
@@ -454,7 +454,7 @@ iframe {
   display: block;
   position: relative;
   z-index: 1;
-  border-radius: 25px;
+  border-radius: 30px;
   overflow: hidden;
 }
 
