@@ -69,14 +69,11 @@
 
     function mostrarValidacao(input) {
         let esseAlert = $(input).parent();
-
         $(esseAlert).addClass('alert-validate');
     }
 
     function esconderValidacao(input) {
         let esseAlert = $(input).parent();
-
         $(esseAlert).removeClass('alerta-validacao');
     }
-
 })(jQuery);
