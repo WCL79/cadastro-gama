@@ -53,15 +53,15 @@ Nesta tela inicial é exibido as notícias.
 ### Sobre Nós
 
 <p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/cadastro.JPG" title="tela Validações" />
+<img src="https://cadastro-itau-gama.netlify.app/images/validacaoCampos.JPG" title="tela Validações" />
 </p>
-Nesta tela é exibido as informações sobre os desenvolvedores. 
+Nesta tela é exibido as validações cujo preenchimeto obrigatório. 
 
 <br/><br/>
 ### Contato
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/contato.JPG" title="tela Contato" />
+<img src="https://cadastro-itau-gama.netlify.app/images/cadastroValicaoTermo.png" title="tela Contato" />
 </p>
 Nesta tela é exibido um formulário para entrar em contato com os desenvolvedores.
 
