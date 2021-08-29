@@ -13,7 +13,7 @@ if (!wrapper.classList.contains("show")) {
 }
 button.addEventListener("click", () => {
     wrapper.classList.remove("show");
-    return window.history.go(-2);
+    return window.history.go(-1);
 });
 
 
