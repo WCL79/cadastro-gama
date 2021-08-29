@@ -1,9 +1,9 @@
 (function ($) {
-    "use strict";
+    " ";
 
     /*==================================================================
     [ Contato de foco2 ]*/
-    $('.input').each(function () {
+    $('.input', '.select').each(function () {
         $(this).on('blur', function () {
             if ($(this).val().trim() != "") {
                 $(this).addClass('has-val');
@@ -74,6 +74,6 @@
 
     function esconderValidacao(input) {
         let esseAlert = $(input).parent();
-        $(esseAlert).removeClass('alerta-validacao');
+        $(esseAlert).removeClass('alert-validate');
     }
 })(jQuery);
