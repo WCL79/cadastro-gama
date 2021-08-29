@@ -45,7 +45,7 @@ Nesta seção serão exibidas as telas do sistema e sua navegabilidade.
 
 ### Home
 <p align="center">
-<img src="" title="tela Home" />
+<img src="https://cadastro-itau-gama.netlify.app/images/cadastro.JPG" title="tela Home" />
 </p>
 Nesta tela inicial é exibido as notícias.
 
@@ -53,7 +53,7 @@ Nesta tela inicial é exibido as notícias.
 ### Sobre Nós
 
 <p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/cadastro.JPG" title="tela Sobre Nós" />
+<img src="https://cadastro-itau-gama.netlify.app/images/cadastro.JPG" title="tela Validações" />
 </p>
 Nesta tela é exibido as informações sobre os desenvolvedores. 
 
