@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/logotype.png " title="LOGO CADASTRO ITAÚ" />
+<img src="https://cadastro-itau-gama.netlify.app/images/logotyperedimensionada.png " title="LOGO CADASTRO ITAÚ" />
 </h1>
 
 <h3 align="center">
