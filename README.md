@@ -61,7 +61,7 @@ Nesta tela é exibido as validações cujo preenchimeto obrigatório.
 ### Contato
 
 <p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/cadastroValicaoTermo.png" title="tela Contato" />
+<img src="https://cadastro-itau-gama.netlify.app/images/validacaoCampo.JPG" title="tela Contato" />
 </p>
 Nesta tela é exibido um formulário para entrar em contato com os desenvolvedores.
 
