@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src=" " title="LOGO CADASTRO ITAÚ" />
+<img src="https://cadastro-itau-gama.netlify.app/images/logotype.png " title="LOGO CADASTRO ITAÚ" />
 </h1>
 
 <h3 align="center">
@@ -35,19 +35,17 @@ Tecnologias que utilizamos para desenvolver a Landing page:
 ## ⚙️ Funcionalidades
 
 Funcionalidades que o sistema oferece:
-- Tela Home que apresenta as notícias
-- Tela Sobre Nós que apresenta as informações sobre os desenvolvedores
-- Tela de Contato que possui um formulário para entrar em contato com os desenvolvedores
-- Tela de Saiba Mais que tem a Curadoria das notícias
+- Tela Cadastro
+- Tela Termo
+- Tela Sucesso com modal
 
-	
 ## 🖥️🖱️ Telas 
 
 Nesta seção serão exibidas as telas do sistema e sua navegabilidade.
 
 ### Home
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/home.png" title="tela Home" />
+<img src="" title="tela Home" />
 </p>
 Nesta tela inicial é exibido as notícias.
 
@@ -55,7 +53,7 @@ Nesta tela inicial é exibido as notícias.
 ### Sobre Nós
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sobrenos.png" title="tela Sobre Nós" />
+<img src="https://cadastro-itau-gama.netlify.app/images/cadastro.JPG" title="tela Sobre Nós" />
 </p>
 Nesta tela é exibido as informações sobre os desenvolvedores. 
 
