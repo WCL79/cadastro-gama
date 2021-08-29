@@ -2,8 +2,9 @@
     " ";
 
     /*==================================================================
-    [ Contato de foco2 ]*/
-    $('.input', '.select').each(function () {
+    [ Selector (.class).(açao) faz a interação, sendo a função .on vincula o conjuntos de elementos
+    selecionados. ]*/
+    $('.input').each(function () {
         $(this).on('blur', function () {
             if ($(this).val().trim() != "") {
                 $(this).addClass('has-val');
@@ -18,7 +19,7 @@
     $('.validate-input .input').each(function () {
         $(this).on('blur', function () {
             if (validar(this) == false) {
-                mostrarValidacao(this);
+                showValidate(this);
             }
             else {
                 $(this).parent().addClass('true-validate');
@@ -28,24 +29,24 @@
 
     /*==================================================================
     [ Validar ]*/
-    var input = $('.validate-input .input');
+    let input = $('.validate-input .input');
 
     $('.validate-form').on('submit', function () {
-        var check = true;
+        let check = true;
 
         for (var i = 0; i < input.length; i++) {
             if (validar(input[i]) == false) {
-                mostrarValidacao(input[i]);
+                showValidate(input[i]);
                 check = false;
             }
         }
         return check;
     });
 
-
+    //[Dispara o evento de foco para as classes selecionadas]
     $('.validate-form .input').each(function () {
         $(this).focus(function () {
-            esconderValidacao(this);
+            hideValidate(this);
             $(this).parent().removeClass('true-validate');
         });
     });
@@ -67,12 +68,12 @@
 
     }
 
-    function mostrarValidacao(input) {
+    function showValidate(input) {
         let esseAlert = $(input).parent();
         $(esseAlert).addClass('alert-validate');
     }
 
-    function esconderValidacao(input) {
+    function hideValidate(input) {
         let esseAlert = $(input).parent();
         $(esseAlert).removeClass('alert-validate');
     }
