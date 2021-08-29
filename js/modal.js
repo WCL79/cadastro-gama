@@ -9,9 +9,13 @@ for (let item of adClasses) {
 }
 let getProperty = window.getComputedStyle(detect).getPropertyValue("display");
 if (!wrapper.classList.contains("show")) {
-    getProperty == "none" ? wrapper.classList.add("show") : wrapper.classList.remove("show");
+    if (getProperty == "none"){
+        wrapper.classList.add("show");
+    }else{
+        wrapper.classList.remove("show");
+    }
 }
-button.addEventListener("click", () => {
+button.addEventListener("click", function() {
     wrapper.classList.remove("show");
     return window.history.go(-1);
 });
