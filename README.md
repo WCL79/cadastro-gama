@@ -77,7 +77,7 @@ Esta tela simula termo de uso para que o usuário aceite para a qualidade da apl
 ### Sucesso
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sucesso.sucessomodal.JPG" title="tela Sucesso" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sucessomodal.JPG" title="tela Sucesso" />
 </p>
 A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição enviada com sucesso.
 
