@@ -64,7 +64,7 @@ Nesta tela inicial é exibido as notícias.
 Nesta tela é exibido as validações cujo preenchimeto obrigatório. 
 
 <br/><br/>
-### Contato
+### Validação para Termo de uso
 
 <p align="center">
 <img src="https://cadastro-itau-gama.netlify.app/images/validacaoCamposTermo.JPG" title="tela Validação Termo" />
@@ -92,9 +92,9 @@ A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição envia
 ### Netlifly
 
 <p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/netlifly.JPG" title="tela Netlifly" />
+<img src="https://cadastro-itau-gama.netlify.app/images/principalnetlifly.png" title="tela Netlifly" />
 </p>
-A tela principal do Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
+A tela principal do Netlifly cujo projeto hospedado no caminho: https://cadastro-itau-gama.netlify.app/
 
 ### Netlifly Form
 <p align="center">
