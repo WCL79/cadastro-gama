@@ -50,7 +50,7 @@ Nesta seção serão exibidas as telas do sistema e sua navegabilidade.
 Nesta tela inicial é exibido as notícias.
 
 <br/><br/>
-### Sobre Nós
+### Validações conforme requisito
 
 <p align="center">
 <img src="https://cadastro-itau-gama.netlify.app/images/validacaoCampos.JPG" title="tela Validações" />
@@ -66,10 +66,10 @@ Nesta tela é exibido as validações cujo preenchimeto obrigatório.
 Nesta tela é exibido as validação do Termo de uso.
 
 <br/><br/>
-### Saiba Mais
+### Termo de uso
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/saibamais.png" title="tela Saiba Mais" />
+<img src="https://cadastro-itau-gama.netlify.app/images/termo.JPG" title="tela Termo de uso" />
 </p>
 Esta tela apresenta a curadoria das notícias.
 
