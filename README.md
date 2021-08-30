@@ -128,25 +128,3 @@ A tela referente à configuração de e-mail para receber notificação em tempo
 </p>
 
 <br/><br/>
-### Gráfico GitHub
-
-<p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/githubgrafico.png" title="Gráfico GitHub" />
-</p>
-Gráfico dos Commits. 
-
-<br/><br/>
-### Gráfico GitHub
-
-<p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/githubgrafico1.png" title="Gráfico GitHub" />
-</p>
-Gráfico dos Commits. 
-
-<br/><br/>
-### Gráfico GitHub
-
-<p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/githubgrafico2.png" title="Gráfico GitHub" />
-</p>
-Network graph
