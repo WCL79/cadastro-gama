@@ -98,9 +98,9 @@ A tela principal do Netlifly cujo projeto hospedado no caminho: https://cadastro
 
 ### Netlifly Form
 <p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/netliflyform.JPG" title="tela Netlifly" />
+<img src="https://cadastro-itau-gama.netlify.app/images/netliflyForms.png" title="tela Netlifly" />
 </p>
-A tela se referente ao Fom no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
+A tela principal do Netlifly cujo projeto hospedado no caminho: https://cadastro-itau-gama.netlify.app/
 
 
 
