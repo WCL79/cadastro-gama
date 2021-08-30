@@ -10,11 +10,7 @@ for (let item of adClasses) {
 }
 let getProperty = window.getComputedStyle(detect).getPropertyValue("display");
 if (!wrapper.classList.contains("show")) {
-    if (getProperty == "none"){
-        wrapper.classList.add("show");
-    }else{
-        wrapper.classList.remove("show");
-    }
+    getProperty == "none" ? wrapper.classList.add("show") : wrapper.classList.remove("show");
 }
 button.addEventListener("click", function() {
     wrapper.classList.remove("show");
