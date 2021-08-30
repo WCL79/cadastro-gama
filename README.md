@@ -77,7 +77,7 @@ Esta tela simula termo de uso para que o usuário aceite para a qualidade da apl
 ### Sucesso
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sucessomodal.JPG" title="tela Sucesso" />
+<img src="https://cadastro-itau-gama.netlify.app/images/sucessomodal.JPG" title="tela Sucesso" />
 </p>
 A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição enviada com sucesso.
 
@@ -86,13 +86,13 @@ A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição envia
 ### Netlifly
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netlifly.JPG" title="tela Netlifly" />
+<img src="https://cadastro-itau-gama.netlify.app/images/netlifly.JPG" title="tela Netlifly" />
 </p>
 A tela principal do Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
 
 ### Netlifly Form
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netliflyform.JPG" title="tela Netlifly" />
+<img src="https://cadastro-itau-gama.netlify.app/images/netliflyform.JPG" title="tela Netlifly" />
 </p>
 A tela se referente ao Fom no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
 
@@ -101,13 +101,13 @@ A tela se referente ao Fom no Netlifly cujo projeto hospedado no caminho: https:
 ### Netlifly Mensagem Recebida
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/netliflyformmensagem.JPG" title="tela Netlifly" />
+<img src="https://cadastro-itau-gama.netlify.app/images/netliflyformmensagem.JPG" title="tela Netlifly" />
 </p>
 A tela referente mensagem recebida no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
 
 ### Netlifly Mensagem Vinculada aos E-mail de Cada Integrante do Grupo 1
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/mensagemvinculadaaosemaildosintegrantegrupo.JPG" title="tela Netlifly" />
+<img src="https://cadastro-itau-gama.netlify.app/images/mensagemvinculadaaosemaildosintegrantegrupo.JPG" title="tela Netlifly" />
 </p>
 A tela referente mensagem recebida no Netlifly a qual é vinculada a cada integrante do Grupo 1, pois o intento é otimizar a resposta de retorno ao cliente-usuário.
 
@@ -115,7 +115,7 @@ A tela referente mensagem recebida no Netlifly a qual é vinculada a cada integr
 ### Gráfico GitHub
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico.png" title="Gráfico GitHub" />
+<img src="https://cadastro-itau-gama.netlify.app/images/githubgrafico.png" title="Gráfico GitHub" />
 </p>
 Gráfico dos Commits. 
 
@@ -123,7 +123,7 @@ Gráfico dos Commits.
 ### Gráfico GitHub
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico1.png" title="Gráfico GitHub" />
+<img src="https://cadastro-itau-gama.netlify.app/images/githubgrafico1.png" title="Gráfico GitHub" />
 </p>
 Gráfico dos Commits. 
 
@@ -131,6 +131,6 @@ Gráfico dos Commits.
 ### Gráfico GitHub
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/githubgrafico2.png" title="Gráfico GitHub" />
+<img src="https://cadastro-itau-gama.netlify.app/images/githubgrafico2.png" title="Gráfico GitHub" />
 </p>
 Network graph
