@@ -111,11 +111,21 @@ A tela principal do Netlifly cujo projeto hospedado no caminho: https://cadastro
 </p>
 A tela referente mensagem recebida no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
 
-### Netlifly Mensagem Vinculada aos E-mail de Cada Integrante do Grupo 1
+### Mensagem Disparada ao E-mail Configurado ao validaForm Netlifly   
 <p align="center">
 <img src="https://cadastro-itau-gama.netlify.app/images/nnetliflymensagemrecebida.png" title="tela Netlifly" />
 </p>
-A tela referente mensagem recebida no Netlifly a qual é vinculada a cada integrante do Grupo 1, pois o intento é otimizar a resposta de retorno ao cliente-usuário.
+A tela referente mensagem recebida no Netlifly a qual é vinculada ao e-mail configurado no Netlifly, pois o intento é otimizar a resposta de retorno ao cliente-usuário.
+
+<p align="center">
+<img src="https://cadastro-itau-gama.netlify.app/images/recursoInicialCongEmail.png" title="tela Netlifly" />
+A tela referente à configuração de e-mail para receber notificação em tempo real.
+</p>
+
+<p align="center">
+<img src="https://cadastro-itau-gama.netlify.app/images/configuracaoEmail.png" title="tela Netlifly" />
+A tela referente à configuração de e-mail para receber notificação em tempo real.
+</p>
 
 <br/><br/>
 ### Gráfico GitHub
