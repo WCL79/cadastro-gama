@@ -29,7 +29,7 @@ body{
   transition: opacity 0.2s 0s ease-in-out,
               transform 0.2s 0s ease-in-out;
 }
-.wrapper.show{
+.wrapper{
   opacity: 1;
   pointer-events: auto;
   transform:translate(-50%, -50%) scale(1);
