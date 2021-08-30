@@ -32,7 +32,13 @@ Tecnologias que utilizamos para desenvolver a Landing page:
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp)
 
 
-## ⚙️ Funcionalidades
+## ⚙️ Requisistos e Funcionalidades 
+
+Regra de Negócio:
+- Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios
+- Explorar os recursos de CSS
+- Explorar os recursos do Javascript (Ex. Abrir um alert ao submeter o formulário)
+- Hospedar o site! (Sugerimos o Netlify que é gratuito)
 
 Funcionalidades que o sistema oferece:
 - Tela Cadastro
