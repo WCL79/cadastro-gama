@@ -18,7 +18,7 @@
 
 Para ver a **Cadastro page**, clique aqui: [CADASTRO PESSOAL](https://cadastro-itau-gama.netlify.app/)</br>
 
-### 💻 Desenvolvedores
+### 💻 Desenvolvedor
 - [Weslley C. Lima](https://github.com/WCL79)
 
 ## 🚀 Tecnologias 
