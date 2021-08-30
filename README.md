@@ -71,13 +71,13 @@ Nesta tela é exibido as validação do Termo de uso.
 <p align="center">
 <img src="https://cadastro-itau-gama.netlify.app/images/termo.JPG" title="tela Termo de uso" />
 </p>
-Esta tela apresenta a curadoria das notícias.
+Esta tela simula termo de uso para que o usuário aceite para a qualidade da aplicação.
 
 <br/><br/>
 ### Sucesso
 
 <p align="center">
-<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sucesso.png" title="tela Sucesso" />
+<img src="https://grupo1-itau-tech-gama.netlify.app/image/telas/sucesso.sucessomodal.JPG" title="tela Sucesso" />
 </p>
 A tela Sucesso simula a resposta 200 do código HTTP, ou seja requisição enviada com sucesso.
 
