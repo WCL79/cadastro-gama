@@ -107,7 +107,7 @@ A tela principal do Netlifly cujo projeto hospedado no caminho: https://cadastro
 ### Netlifly Mensagem Recebida
 
 <p align="center">
-<img src="https://cadastro-itau-gama.netlify.app/images/netliflyformmensagem.JPG" title="tela Netlifly" />
+<img src="https://cadastro-itau-gama.netlify.app/images/netliflymensagem.png" title="tela Netlifly" />
 </p>
 A tela referente mensagem recebida no Netlifly cujo projeto hospedado no caminho: https://grupo1-itau-tech-gama.netlify.app/
 
