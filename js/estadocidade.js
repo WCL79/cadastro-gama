@@ -1,3 +1,10 @@
+function validarForm() {
+    let x = document.forms["validaForm"].value;
+    if (x == "") {
+        alert("Campo de mensagem não preenchido!");
+        return false;
+    }
+}
 (function () {
     let selectEstados = $('#estados'),
         selectCidades = $('#cidades');
